@@ -1,0 +1,66 @@
+{
+  "id" : "https://matturquia22.github.io/test/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in matturquia22/test project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 734,
+    "id" : "https://matturquia22.github.io/test/images/IMG_6008/canvas/",
+    "label" : {
+      "none" : [ "IMG_6008" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://matturquia22.github.io/test/images/IMG_6008/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://matturquia22.github.io/test/images/IMG_6008/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 23,
+              "height" : 31
+            }, {
+              "width" : 46,
+              "height" : 62
+            }, {
+              "width" : 92,
+              "height" : 123
+            }, {
+              "width" : 184,
+              "height" : 245
+            }, {
+              "width" : 367,
+              "height" : 490
+            }, {
+              "width" : 734,
+              "height" : 979
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 734,
+            "@id" : "https://matturquia22.github.io/test/images/IMG_6008",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 979
+          } ],
+          "format" : "image/jpeg",
+          "width" : 734,
+          "id" : "https://matturquia22.github.io/test/images/IMG_6008/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 979
+        },
+        "target" : "https://matturquia22.github.io/test/images/IMG_6008/canvas/"
+      } ]
+    } ],
+    "height" : 979
+  } ]
+}
